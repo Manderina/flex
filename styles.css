@@ -1,0 +1,25 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flexcontainer{
+    display: flex;
+    background-color: orange;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 400px;
+    flex-direction: column;
+    
+}
+.flex-item{
+    padding: 50px;
+    margin: 5px;
+    background-color: rgb(18, 18, 124);
+    text-align: center;
+    color: black;
+    flex: 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
